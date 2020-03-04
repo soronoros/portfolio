@@ -50,18 +50,37 @@ body {
     padding-bottom: 50px;
 }
 .about-me-text {
-    padding-left: 550px;
-    padding-right: 550px;
+    padding-left: 30%;
+    padding-right: 30%;
     font-size: 16px;
     color: #727272;
 }
-.numbers {
+.projects {
     background-color: #34547A;
-    heigth: 250px;
+    height: 250px;
     padding-top: 100px;
     padding-bottom: 100px;
     overflow: hidden;
 }
-.numbers-item {
+.project {
+    width: 16.6%;
+    float: left;
+}
+.project-left {
+    width: 50%;
+    float: left;
     text-align: center;
+}
+.project-right {
+    width: 50%;
+    float: right;
+    color: #fff;
+    text-align: left;
+}
+.project-title {
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.project-text {
+    padding-left: 5px;
 }
