@@ -14,7 +14,7 @@ body {
     padding-bottom: 100px;
     overflow: hidden;
 }
-.main-screen-left-column { 
+.main-screen-left-column {
     width: 50%;
     float: left;
     text-align: center;
@@ -83,4 +83,63 @@ body {
 }
 .project-text {
     padding-left: 5px;
+}
+.skills {
+    margin-top: 102px;
+    margin-bottom: 101px;
+    overflow: hidden;
+}
+.skills-layout-left {
+    width: 50%;
+    float: left;
+}
+.skills-layout-title {
+    padding-top: 102px;
+    padding-bottom: 10px;
+}
+.skills-layout-name {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #727272;
+}
+.skills-progress {
+    background-color: #c4c4c4;
+    height: 3px;
+    width: 80%;
+}
+.skills-progress-bar {
+    background-color: #34547A;
+    height: 3px;
+    width: 60%;
+}
+.my-photo {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.how-i-work {
+    background-color: #EEEFF1;
+    text-align: center;
+    overflow: hidden;
+}
+.work-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.work-description {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 50px;
+    color: #727272;
+}
+.work-video {
+    height: auto;
+    padding-bottom: 100px;
+}
+.player-button {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url("work_player.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
