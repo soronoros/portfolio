@@ -4,7 +4,7 @@
 body {
     margin: 0px;
 }
-.contaner {
+.container {
     margin: 0 auto;
     width: 80%;
 }
@@ -35,9 +35,9 @@ body {
     background-color: #34547A;
     margin-top: 40px;
     text-align: center;
-    width: 225px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #fff;
 }
 .about-me {
@@ -55,33 +55,33 @@ body {
     font-size: 16px;
     color: #727272;
 }
-.projects {
+.numbers {
     background-color: #34547A;
     height: 250px;
     padding-top: 100px;
     padding-bottom: 100px;
     overflow: hidden;
 }
-.project {
+.number {
     width: 16.6%;
     float: left;
 }
-.project-left {
+.number-left {
     width: 50%;
     float: left;
     text-align: center;
 }
-.project-right {
+.number-right {
     width: 50%;
     float: right;
     color: #fff;
     text-align: left;
 }
-.project-title {
+.number-title {
     padding-left: 5px;
     padding-bottom: 10px;
 }
-.project-text {
+.number-text {
     padding-left: 5px;
 }
 .skills {
@@ -139,7 +139,125 @@ body {
 .player-button {
     padding-top: 250px;
     padding-bottom: 250px;
-    background-image: url("work_player.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("work_player.jpg") no-repeat center;
+}
+.projects {
+    margin-top: 28px;
+
+    overflow: hidden;
+}
+.top-line {
+    width: 100%;
+    height: 50%;
+    float: top;
+}
+.board {
+    width: 25%;
+    height: auto;
+    float: left;
+    background: url("Board.jpg") no-repeat;
+    display: block;
+}
+.table {
+    width: 25%;
+    height: auto;
+    float: left;
+    background: url("Table.jpg") no-repeat;
+    display: block;
+ }
+.bottom-line {
+    width: 100%;
+    height: 50%;
+    float: bottom;
+}
+.board {
+    width: 25%;
+    height: auto;
+    float: left;
+    background: url("Board.jpg") no-repeat;
+    display: block;
+}
+.table {
+    width: 25%;
+    height: auto;
+    float: left;
+    background: url("Table.jpg") no-repeat;
+    display: block;
+}
+.clients {
+    padding-top: 72px;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+.client {
+    width: 25%;
+    float: left;
+}
+.form {
+    background-color: #EEEFF1;
+    overflow: hidden;
+}
+.form-text-box {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.form-text-description {
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #727272;
+}
+.form-input {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.input {
+    background-color: white;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.form-input-name {
+    width: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    background-color: white;
+}
+.form-input-e-mail {
+    width: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    background-color: white;
+}
+.form-input-message {
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    height: 175px;
+    text-align: left;
+    background-color: white;
+}
+.form-button {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.button {
+    background-color: #34547A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
