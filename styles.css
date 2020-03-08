@@ -155,29 +155,28 @@ body {
 }
 .projects {
     margin-top: 28px;
-
     overflow: hidden;
 }
-.top-line {
+/*.top-line {
     width: 100%;
     height: 50%;
     float: top;
-}
+}*/
 .board {
     width: 25%;
     height: auto;
     float: left;
-    background: url("Board.jpg") no-repeat;
-    display: block;
+    /*background: url("Board.jpg") no-repeat;
+    display: block;*/
 }
 .table {
     width: 25%;
     height: auto;
     float: left;
-    background: url("Table.jpg") no-repeat;
-    display: block;
+    /*background: url("Table.jpg") no-repeat;
+    display: block;*/
  }
-.bottom-line {
+/*.bottom-line {
     width: 100%;
     height: 50%;
     float: bottom;
@@ -195,7 +194,7 @@ body {
     float: left;
     background: url("Table.jpg") no-repeat;
     display: block;
-}
+}*/
 .clients {
     padding-top: 72px;
     padding-bottom: 120px;
