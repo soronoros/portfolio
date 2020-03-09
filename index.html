@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css"/>
+        <meta name="viewport" content="width=device-width; initial-scale=1">
     </head>
     <body>
         <div class="main-screen">
@@ -10,11 +11,11 @@
                     <img src="site-logo.png" alt="site">
                 </div>
                 <div class="menu">
-                    <a href="/" style="text-decoration: none">Главная</a>
-                    <a href="/" style="text-decoration: none">Об авторе</a>
-                    <a href="/" style="text-decoration: none">Работы</a>
-                    <a href="/" style="text-decoration: none">Процесс</a>
-                    <a href="/" style="text-decoration: none">Контакты</a>
+                    <a href="#" class="menu-link">Главная</a>
+                    <a href="#" class="menu-link">Об авторе</a>
+                    <a href="#" class="menu-link">Работы</a>
+                    <a href="#" class="menu-link">Процесс</a>
+                    <a href="#" class="menu-link">Контакты</a>
                 </div>
                 <div class="main-screen-left-column">
                     <img src="Laptop.png" alt="Laptop">
@@ -153,9 +154,7 @@
                     </div>
                 </div>
                 <div class="skills-layout-right">
-                    <div class="my-photo">
-                        <img src="My_photo.jpg" alt="my_photo">
-                    </div>
+                        <img src="My_photo.jpg" class="my-photo" alt="my_photo">
                 </div>
             </div>
         </div>
@@ -169,47 +168,27 @@
                 </div>
                 <div class="work-video">
                     <div class="player-button">
-                        <img src="play_button.png" alt="button">
+                        <img src="play_button.png" class="player-button" alt="button">
                     </div>
                 </div>
             </div>
         </div>
         <div class="projects">
-            <img src="Board.jpg" class="board">
-            <img src="Table.jpg" class="table">
-            <img src="Board.jpg" class="board">
-            <img src="Table.jpg" class="table">
-            <img src="Table.jpg" class="table">
-            <img src="Board.jpg" class="board">
-            <img src="Table.jpg" class="table">
-            <img src="Board.jpg" class="board">
-            <!--div class="top-line">
-                <div class="board"></div>
-                <div class="table"></div>
-                <div class="board"></div>
-                <div class="table"></div>
-            </div>
-            <div class="bottom-line">
-                <div class="board"></div>
-                <div class="table"></div>
-                <div class="board"></div>
-                <div class="table"></div>
-            </div-->
+            <div class="board"></div>
+            <div class="table"></div>
+            <div class="board"></div>
+            <div class="table"></div>
+            <div class="table"></div>
+            <div class="board"></div>
+            <div class="table"></div>
+            <div class="board"></div>
         </div>
         <div class="clients">
             <div class="container">
-                <div class="client">
-                    <img src="client.jpg" alt="client">
-                </div>
-                <div class="client">
-                    <img src="client.jpg" alt="client">
-                </div>
-                <div class="client">
-                    <img src="client.jpg" alt="client">
-                </div>
-                <div class="client">
-                    <img src="client.jpg" alt="client">
-                </div>
+                    <img src="client.jpg" class="client" alt="client">
+                    <img src="client.jpg" class="client" alt="client">
+                    <img src="client.jpg" class="client" alt="client">
+                    <img src="client.jpg" class="client" alt="client">
             </div>
         </div>
         <div class="form">
@@ -221,25 +200,25 @@
                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                 </div>
             </div>
-            <div class="form-input">
-                <div class="form-input-name">
+            <div class="form-field">
+                <div class="form-field-name">
                     <form>
                         <label>
-                            <input type="text" class="input" name="form-input-name" value="Ваше имя">
+                            <input type="text" class="field-name" name="field-name" value="Ваше имя">
                         </label>
                     </form>
                 </div>
-                <div class="form-input-e-mail">
+                <div class="form-field-e-mail">
                     <form>
                         <label>
-                            <input type="text" class="input" name="form-input-e-mail" value="Ваш E-mail">
+                            <input type="text" class="field-name" name="field-e-mail" value="Ваш E-mail">
                         </label>
                     </form>
                 </div>
-                <div class="form-input-message">
+                <div class="form-field-message">
                     <form>
                         <label>
-                            <textarea class="input" style="height: 175px">Сообщение</textarea>
+                            <textarea class="field-area">Сообщение</textarea>
                         </label>
                     </form>
                 </div>
@@ -263,5 +242,6 @@
                 </div>
             </div>
         </div>
+    <!--div class="test"></div-->
     </body>
 </html>

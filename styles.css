@@ -15,14 +15,23 @@ body {
     overflow: hidden;
 }
 .site-logo {
-    width: 40%;
+    width: 20%;
     float: left;
 }
 .menu {
     width: 60%;
-    padding-top: 13px;
+    padding-top: 5px;
     height: 42px;
     float: right;
+    font-size: 24px;
+}
+.menu-link {
+    width: 16%;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    color: #111111;
+    text-decoration: none;
 }
 .main-screen-left-column {
     padding-top: 150px;
@@ -31,7 +40,7 @@ body {
     text-align: center;
 }
 .main-screen-right-column {
-    padding-top: 150px;
+    padding-top: 140px;
     width: 50%;
     float: right;
 }
@@ -157,44 +166,28 @@ body {
     margin-top: 28px;
     overflow: hidden;
 }
-/*.top-line {
-    width: 100%;
-    height: 50%;
-    float: top;
-}*/
 .board {
     width: 25%;
-    height: auto;
-    float: left;
-    /*background: url("Board.jpg") no-repeat;
-    display: block;*/
-}
-.table {
-    width: 25%;
-    height: auto;
-    float: left;
-    /*background: url("Table.jpg") no-repeat;
-    display: block;*/
- }
-/*.bottom-line {
-    width: 100%;
-    height: 50%;
-    float: bottom;
-}
-.board {
-    width: 25%;
-    height: auto;
+    height: 480px;
     float: left;
     background: url("Board.jpg") no-repeat;
     display: block;
 }
+.board:hover {
+    box-shadow: inset 0 0 0 1000px rgba(22, 48, 122, .8);
+    transition: .5s all linear;
+}
 .table {
     width: 25%;
-    height: auto;
+    height: 480px;
     float: left;
     background: url("Table.jpg") no-repeat;
     display: block;
-}*/
+ }
+.table:hover {
+    box-shadow: inset 0 0 0 1000px rgba(22, 48, 122, .8);
+    transition: .5s all linear;
+}
 .clients {
     padding-top: 72px;
     padding-bottom: 120px;
@@ -218,34 +211,47 @@ body {
     padding-right: 30%;
     color: #727272;
 }
-.form-input {
+.form-field {
     padding-left: 30%;
     padding-right: 30%;
 }
-.input {
+.field-name {
     background-color: white;
     border: none;
     text-align: left;
+    font-size: 18px;
     padding-left: 10px;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    outline: 0;
 }
-.form-input-name {
+.field-area {
+    background-color: white;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 10px;
+    width: 100%;
+    height: 175px;
+    box-sizing: border-box;
+    outline: 0;
+}
+.form-field-name {
     width: 45%;
     padding-top: 10px;
     padding-bottom: 10px;
     float: left;
     background-color: white;
 }
-.form-input-e-mail {
+.form-field-e-mail {
     width: 45%;
     padding-top: 10px;
     padding-bottom: 10px;
     float: right;
     background-color: white;
 }
-.form-input-message {
+.form-field-message {
     margin-top: 50px;
     float: left;
     width: 100%;
@@ -289,8 +295,27 @@ body {
     padding-top: 25px;
 }
 .logo {
-    width: 33.3%;
+    width: 20%;
+    margin-right: 10px;
     height: 100%;
     float: right;
     text-align: center;
+}
+.test {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+/*@media (max-width: 1000px){
+    .test {
+        background: green;
+    }
+}*/
+@media (max-width: 1024px) {
+    .menu {
+        width: 70%;
+        height: 42px;
+        float: right;
+        font-size: 20px;
+    }
 }
