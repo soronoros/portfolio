@@ -311,11 +311,11 @@ body {
         background: green;
     }
 }*/
-@media (max-width: 1024px) {
+@media (max-width: 320px) {
     .menu {
         width: 70%;
         height: 42px;
         float: right;
-        font-size: 20px;
+        font-size: 10px;
     }
 }
