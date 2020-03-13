@@ -154,12 +154,12 @@ body {
     color: #727272;
 }
 .work-video {
-    height: auto;
+    height: 1100px;
     padding-bottom: 100px;
 }
 .player-button {
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 240px;
+    padding-bottom: 240px;
     background: url("work_player.jpg") no-repeat center;
 }
 .projects {
@@ -287,7 +287,6 @@ body {
 .copyright {
     float: left;
     width: 50%;
-
 }
 .social {
     float: right;
@@ -301,42 +300,207 @@ body {
     float: right;
     text-align: center;
 }
-/*.test {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-}
-/*@media (max-width: 1000px){
-    .test {
-        background: green;
-    }
-}*/
 @media (max-width: 320px) {
-    .menu {
-        width: 70%;
-        height: 42px;
-        float: right;
-        font-size: 10px;
+    .main-screen {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
-}
-.test {
-
-    height: 400px;
-    background-color: #727272;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.test__item {
-    flex-grow: 1;
-    height: 200px;
-    background-color: blue;
-
-}
-.flex-start {
-    align-self: flex-start;
-    flex-grow:5;
-    background-color: aqua;
+    .image-logo {
+        height: 19px;
+    }
+    .menu {
+        width: 80%;
+        font-size: 12px;
+        padding-top: 0px;
+    }
+    .menu-link {
+        margin: 1px;
+        width: 30%;
+    }
+    .main-screen-left-column {
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .image-laptop {
+        height: 100px;
+    }
+    .main-screen-right-column {
+        padding-top:20px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-screen-title {
+        font-size: 18px;
+    }
+    .main-screen-description {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .main-screen-button {
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 12px;
+        width: 120px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .about-me {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about-me-title {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .about-me-text {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 12px;
+    }
+    .numbers {
+        height: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }.number {
+         width: 33.3%;
+         margin-bottom: 10px;
+     }
+     .image-number {
+         height: 35px;
+     }
+    .number-right {
+        font-size: 12px;
+    }
+    .number-title {
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+    .number-text {
+        padding-left: 0;
+    }
+    .skills {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .skills-layout-left {
+        width: 100%;
+        text-align: center;
+    }
+    .skills-layout-title {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: .8em;
+    }
+    .skills-layout-name {
+        font-size: 12px;
+        text-align: left;
+    }
+    .skills-progress {
+        width: 100%;
+    }
+    .my-photo {
+        padding-top: 10px;
+        width: 100%;
+    }
+    .work-title {
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-size: .8em;
+    }
+    .work-description {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+    .work-video {
+        height: 130px;
+        padding-bottom: 0;
+    }
+    .player-button {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .image-button {
+        height: 50px;
+    }
+    .projects {
+        margin-top: 14px;
+    }
+    .board {
+        width: 50%;
+        height: 120px;
+    }
+    .table {
+        width: 50%;
+        height: 120px;
+    }
+    .clients {
+        padding-top: 36px;
+        padding-bottom: 50px;
+    }
+    .form-text-box {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .form-text-title {
+        font-size: .8em;
+    }
+    .form-text-description {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 12px;
+    }
+    .form-field {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .form-field-name {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .form-field-e-mail {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .form-field-message {
+        margin-top: 25px;
+        height: 175px;
+    }
+    .field-name {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .field-area {
+        font-size: 12px;
+        padding-left: 5px;
+        width: 100%;
+    }
+    .form-button {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    .contacts {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .copyright {
+        font-size: .7em;
+    }
+    .social {
+        width: 50%;
+        padding-top: 15px;
+    }.logo {
+        width: 25%;
+        margin-right: 0;
+    }
+     .social-logo {
+        height: 14px;
+     }
 }
