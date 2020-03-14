@@ -2,306 +2,839 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
+    margin: 0;
 }
-.container {
-    margin: 0 auto;
-    width: 80%;
-}
-.main-screen {
-    background-color: #e5e5e5;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    overflow: hidden;
-}
-.site-logo {
-    width: 20%;
-    float: left;
-}
-.menu {
-    width: 60%;
-    padding-top: 5px;
-    height: 42px;
-    float: right;
-    font-size: 24px;
-}
-.menu-link {
-    width: 16%;
-    margin: 10px;
-    float: left;
-    text-align: center;
-    color: #111111;
-    text-decoration: none;
-}
-.main-screen-left-column {
-    padding-top: 150px;
-    width: 50%;
-    float: left;
-    text-align: center;
-}
-.main-screen-right-column {
-    padding-top: 140px;
-    width: 50%;
-    float: right;
-}
-.main-screen-title {
-    font-size: 40px;
-}
-.main-screen-description {
-    margin-top: 40px;
-    width: 60%;
-    color: #727272;
-}
-.main-screen-button {
-    background-color: #34547A;
-    margin-top: 40px;
-    text-align: center;
-    width: 220px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-}
-.about-me {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-}
-.about-me-title {
-    font-size: 32px;
-    padding-bottom: 50px;
-}
-.about-me-text {
-    padding-left: 30%;
-    padding-right: 30%;
-    font-size: 16px;
-    color: #727272;
-}
-.numbers {
-    background-color: #34547A;
-    height: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    overflow: hidden;
-}
-.number {
-    width: 16.6%;
-    float: left;
-}
-.number-left {
-    width: 50%;
-    float: left;
-    text-align: center;
-}
-.number-right {
-    width: 50%;
-    float: right;
-    color: #fff;
-    text-align: left;
-}
-.number-title {
-    padding-left: 5px;
-    padding-bottom: 10px;
-}
-.number-text {
-    padding-left: 5px;
-}
-.skills {
-    margin-top: 102px;
-    margin-bottom: 101px;
-    overflow: hidden;
-}
-.skills-layout-left {
-    width: 50%;
-    float: left;
-}
-.skills-layout-title {
-    padding-top: 102px;
-    padding-bottom: 10px;
-}
-.skills-layout-name {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    color: #727272;
-}
-.skills-progress {
-    background-color: #c4c4c4;
-    height: 3px;
-    width: 80%;
-}
-.skills-progress-bar {
-    background-color: #34547A;
-    height: 3px;
-    width: 60%;
-}
-.my-photo {
-    width: 50%;
-    float: right;
-    text-align: center;
-}
-.how-i-work {
-    background-color: #EEEFF1;
-    text-align: center;
-    overflow: hidden;
-}
-.work-title {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-.work-description {
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-bottom: 50px;
-    color: #727272;
-}
-.work-video {
-    height: 1100px;
-    padding-bottom: 100px;
-}
-.player-button {
-    padding-top: 240px;
-    padding-bottom: 240px;
-    background: url("work_player.jpg") no-repeat center;
-}
-.projects {
-    margin-top: 28px;
-    overflow: hidden;
-}
-.board {
-    width: 25%;
-    height: 480px;
-    float: left;
-    background: url("Board.jpg") no-repeat;
-    display: block;
-}
-.board:hover {
-    box-shadow: inset 0 0 0 1000px rgba(22, 48, 122, .8);
-    transition: .5s all linear;
-}
-.table {
-    width: 25%;
-    height: 480px;
-    float: left;
-    background: url("Table.jpg") no-repeat;
-    display: block;
- }
-.table:hover {
-    box-shadow: inset 0 0 0 1000px rgba(22, 48, 122, .8);
-    transition: .5s all linear;
-}
-.clients {
-    padding-top: 72px;
-    padding-bottom: 120px;
-    overflow: hidden;
-}
-.client {
-    width: 25%;
-    float: left;
-}
-.form {
-    background-color: #EEEFF1;
-    overflow: hidden;
-}
-.form-text-box {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    text-align: center;
-}
-.form-text-description {
-    padding-left: 30%;
-    padding-right: 30%;
-    color: #727272;
-}
-.form-field {
-    padding-left: 30%;
-    padding-right: 30%;
-}
-.field-name {
-    background-color: white;
-    border: none;
-    text-align: left;
-    font-size: 18px;
-    padding-left: 10px;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    outline: 0;
-}
-.field-area {
-    background-color: white;
-    border: none;
-    text-align: left;
-    font-size: 18px;
-    padding-left: 10px;
-    width: 100%;
-    height: 175px;
-    box-sizing: border-box;
-    outline: 0;
-}
-.form-field-name {
-    width: 45%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    float: left;
-    background-color: white;
-}
-.form-field-e-mail {
-    width: 45%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    float: right;
-    background-color: white;
-}
-.form-field-message {
-    margin-top: 50px;
-    float: left;
-    width: 100%;
-    height: 175px;
-    text-align: left;
-    background-color: white;
-}
-.form-button {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-.button {
-    background-color: #34547A;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-.contacts {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #34547A;
-    color: white;
-    overflow: hidden;
-}
-.copyright {
-    float: left;
-    width: 50%;
-}
-.social {
-    float: right;
-    width: 25%;
-    padding-top: 25px;
-}
-.logo {
-    width: 20%;
-    margin-right: 10px;
-    height: 100%;
-    float: right;
-    text-align: center;
-}
-@media (max-width: 320px) {
+
+@media (max-width: 1600px) {
+    .container {
+        margin: 0 auto;
+        width: 80%;
+    }
     .main-screen {
+        background-color: #e5e5e5;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        overflow: hidden;
+    }
+    .site-logo {
+        width: 20%;
+        float: left;
+    }
+    .menu {
+        width: 60%;
+        padding-top: 5px;
+        height: 42px;
+        float: right;
+        font-size: 24px;
+    }
+    .menu-link {
+        width: 16%;
+        margin: 10px;
+        float: left;
+        text-align: center;
+        color: #111111;
+        text-decoration: none;
+    }
+    .main-screen-left-column {
+        padding-top: 150px;
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    .main-screen-right-column {
+        padding-top: 140px;
+        width: 50%;
+        float: right;
+    }
+    .main-screen-title {
+        font-size: 40px;
+    }
+    .main-screen-description {
+        margin-top: 40px;
+        width: 80%;
+        color: #727272;
+    }
+    .main-screen-button {
+        background-color: #34547A;
+        margin-top: 40px;
+        text-align: center;
+        width: 220px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+    }
+    .about-me {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    .about-me-title {
+        font-size: 32px;
+        padding-bottom: 50px;
+    }
+    .about-me-text {
+        padding-left: 30%;
+        padding-right: 30%;
+        font-size: 16px;
+        color: #727272;
+    }
+    .numbers {
+        background-color: #34547A;
+        height: 250px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        overflow: hidden;
+    }
+    .number {
+        width: 16.6%;
+        float: left;
+    }
+    .number-left {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    .number-right {
+        width: 50%;
+        float: right;
+        color: #fff;
+        text-align: left;
+    }
+    .number-title {
+        padding-left: 5px;
+        padding-bottom: 10px;
+    }
+    .number-text {
+        padding-left: 5px;
+    }
+    .skills {
+        margin-top: 102px;
+        margin-bottom: 101px;
+        overflow: hidden;
+    }
+    .skills-layout-left {
+        width: 50%;
+        float: left;
+    }
+    .skills-layout-title {
+        padding-top: 102px;
+        padding-bottom: 10px;
+    }
+    .skills-layout-name {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: #727272;
+    }
+    .skills-progress {
+        background-color: #c4c4c4;
+        height: 3px;
+        width: 80%;
+    }
+    .skills-progress-bar {
+        background-color: #34547A;
+        height: 3px;
+        width: 60%;
+    }
+    .my-photo {
+        width: 50%;
+        float: right;
+        text-align: center;
+    }
+    .how-i-work {
+        background-color: #EEEFF1;
+        text-align: center;
+        overflow: hidden;
+    }
+    .work-title {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .work-description {
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-bottom: 50px;
+        color: #727272;
+    }
+    .work-video {
+        height: 1100px;
+        padding-bottom: 100px;
+    }
+    .player-button {
+        padding-top: 240px;
+        padding-bottom: 240px;
+        background: url("work_player.jpg") no-repeat center;
+    }
+    .projects {
+        margin-top: 28px;
+        overflow: hidden;
+    }
+    .board {
+        width: 25%;
+        height: 480px;
+        float: left;
+        background: url("Board.jpg") no-repeat;
+        display: block;
+    }
+    .board:hover {
+        box-shadow: inset 0 0 0 1000px rgba(22, 48, 122, .8);
+        transition: .5s all linear;
+    }
+    .table {
+        width: 25%;
+        height: 480px;
+        float: left;
+        background: url("Table.jpg") no-repeat;
+        display: block;
+    }
+    .table:hover {
+        box-shadow: inset 0 0 0 1000px rgba(22, 48, 122, .8);
+        transition: .5s all linear;
+    }
+    .clients {
+        padding-top: 72px;
+        padding-bottom: 120px;
+        overflow: hidden;
+    }
+    .client {
+        width: 25%;
+        float: left;
+    }
+    .form {
+        background-color: #EEEFF1;
+        overflow: hidden;
+    }
+    .form-text-box {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .form-text-description {
+        padding-left: 30%;
+        padding-right: 30%;
+        color: #727272;
+    }
+    .form-field {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .field-name {
+        background-color: white;
+        border: none;
+        text-align: left;
+        font-size: 18px;
+        padding-left: 10px;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        outline: 0;
+    }
+    .field-area {
+        background-color: white;
+        border: none;
+        text-align: left;
+        font-size: 18px;
+        padding-left: 10px;
+        width: 100%;
+        height: 175px;
+        box-sizing: border-box;
+        outline: 0;
+    }
+    .form-field-name {
+        width: 45%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        float: left;
+        background-color: white;
+    }
+    .form-field-e-mail {
+        width: 45%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        float: right;
+        background-color: white;
+    }
+    .form-field-message {
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 175px;
+        text-align: left;
+        background-color: white;
+    }
+    .form-button {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .button {
+        background-color: #34547A;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .contacts {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #34547A;
+        color: white;
+        overflow: hidden;
+    }
+    .copyright {
+        float: left;
+        width: 50%;
+    }
+    .social {
+        float: right;
+        width: 25%;
+        padding-top: 25px;
+    }
+    .logo {
+        width: 20%;
+        margin-right: 10px;
+        height: 100%;
+        float: right;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-screen {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .image-logo {
+        height: 30px;
+    }
+    .menu {
+        font-size: 18px;
+        padding-top: 8px;
+    }
+    .menu-link {
+        margin: 1px;
+    }
+    .main-screen-left-column {
+        padding-top: 40px;
+    }
+    .image-laptop {
+        height: 150px;
+    }
+    .main-screen-right-column {
+        padding-top:30px;
+    }
+    .main-screen-title {
+        font-size: 26px;
+    }
+    .main-screen-description {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .main-screen-button {
+        font-size: 16px;
+        width: 160px;
+        margin-top: 25px;
+    }
+    .about-me {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .about-me-title {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+    .about-me-text {
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 14px;
+    }
+    .numbers {
+        height: 200px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }.number {
+         margin: auto;
+     }
+    .number-right {
+        font-size: 13px;
+    }
+    .number-title {
+        padding-left: 2px;
+        padding-bottom: 5px;
+    }
+    .number-text {
+        padding-left: 2px;
+    }
+    .image-number {
+        height: 35px;
+    }
+    .skills {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /*.skills-layout-left {
+        width: 50%;
+        float: left;
+    }*/
+    .skills-layout-title {
+        padding-top: 50px;
+        padding-bottom: 5px;
+        text-align: left;
+    }
+    .skills-layout-name {
+        font-size: 14px;
+    }
+    .skills-progress {
+        width: 80%;
+    }
+    .my-photo {
+        padding-top: 20px;
+    }
+    .work-title {
+        padding-top: 35px;
+        padding-bottom: 15px;
+        font-size: 1.0em;
+    }
+    .work-description {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+    .work-video {
+        height: 700px;
+        padding-bottom: 100px;
+    }
+    .player-button {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+    .image-button {
+        height: 80px;
+    }
+    .projects {
+        margin-top: 14px;
+    }
+    .board {
+        width: 25%;
+        height: 210px;
+    }
+    .table {
+        width: 25%;
+        height: 210px;
+    }
+    .clients {
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+    .form-text-box {
+        padding-bottom: 35px;
+    }
+    .form-text-title {
+        font-size: 1em;
+    }
+    .form-text-description {
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 14px;
+    }
+    .form-field {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .form-field-name {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .form-field-e-mail {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .form-field-message {
+        margin-top: 35px;
+    }
+    .field-name {
+        font-size: 14px;
+        padding-left: 8px;
+    }
+    .field-area {
+        font-size: 14px;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .form-button {
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+    .button {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+    .contacts {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .copyright {
+        font-size: .9em;
+    }
+    .social {
+        padding-top: 20px;
+    }.logo {
+         width: 25%;
+         margin-right: 10px;
+     }
+    .social-logo {
+        height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /*.main-screen {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .image-logo {
+        height: 30px;
+    }*/
+    .menu {
+        width: 70%;
+        font-size: 14px;
+    }
+    /*.menu-link {
+        margin: 1px;
+    }
+    .main-screen-left-column {
+        padding-top: 40px;
+    }*/
+    .image-laptop {
+        height: 150px;
+    }
+    /*.main-screen-right-column {
+        padding-top:30px;
+    }
+    .main-screen-title {
+        font-size: 26px;
+    }
+    .main-screen-description {
+        font-size: 13px;
+        width: 80%;
+        margin-top: 30px;
+    }
+    .main-screen-button {
+        font-size: 16px;
+        width: 160px;
+        margin-top: 25px;
+    }
+    .about-me {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .about-me-title {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+    .about-me-text {
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 14px;
+    }
+    .numbers {
+        height: 200px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .number {
+         width: 16.6%;
+         margin: auto;
+    }
+    .number-right {
+         font-size: 13px;
+    }
+    .number-title {
+         padding-left: 2px;
+         padding-bottom: 5px;
+    }
+    .number-text {
+         padding-left: 2px;
+    }*/
+   .image-number {
+        height: 35px;
+   }
+   /*.skills {
+        margin-top: 50px;
+        margin-bottom: 50px;
+   }
+   .skills-layout-left {
+        width: 50%;
+        float: left;
+   }
+   .skills-layout-title {
+        padding-top: 50px;
+        padding-bottom: 5px;
+        text-align: left;
+   }
+   .skills-layout-name {
+        font-size: 14px;
+   }
+   .skills-progress {
+        width: 80%;
+   }
+   .my-photo {
+        padding-top: 20px;
+        width: 50%;
+   }
+   .work-title {
+        padding-top: 35px;
+        padding-bottom: 15px;
+        font-size: 1.0em;
+   }
+   .work-description {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 20px;
+        font-size: 14px;
+   }
+   .work-video {
+        height: 700px;
+        padding-bottom: 100px;
+   }
+   .player-button {
+        padding-top: 250px;
+        padding-bottom: 250px;
+   }
+   .image-button {
+        height: 80px;
+   }
+   .projects {
+        margin-top: 14px;
+   }
+   .board {
+        width: 25%;
+        height: 210px;
+   }
+   .table {
+        width: 25%;
+        height: 210px;
+   }
+   .clients {
+        padding-top: 50px;
+        padding-bottom: 75px;
+   }*/
+   .form-text-box {
+        padding-bottom: 35px;
+   }
+   .form-text-title {
+        font-size: 1em;
+   }
+   .form-text-description {
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 14px;
+   }
+   .form-field {
+        padding-left: 25%;
+        padding-right: 25%;
+   }
+   .form-field-name {
+        padding-top: 10px;
+        padding-bottom: 10px;
+   }
+   .form-field-e-mail {
+        padding-top: 10px;
+        padding-bottom: 10px;
+   }
+   .form-field-message {
+        margin-top: 35px;
+   }
+   .field-name {
+        font-size: 14px;
+        padding-left: 8px;
+   }
+   .field-area {
+        font-size: 14px;
+        padding-left: 10px;
+        width: 100%;
+   }
+   .form-button {
+        padding-top: 35px;
+        padding-bottom: 70px;
+   }
+   .button {
+        font-size: 14px;
+        padding: 12px 24px;
+   }
+   .contacts {
+        padding-top: 35px;
+        padding-bottom: 35px;
+   }
+   .copyright {
+        font-size: .9em;
+   }
+   .social {
+        width: 40%;
+        padding-top: 20px;
+   }.logo {
+         width: 25%;
+         margin-right: 10px;
+   }
+   .social-logo {
+        height: 20px;
+   }
+}
+
+@media (max-width: 425px) {
+    .main-screen {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .image-logo {
+        height: 19px;
+    }
+    .menu {
+        width: 80%;
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .menu-link {
+        margin: 1px;
+        width: 30%;
+    }
+    .main-screen-left-column {
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .image-laptop {
+        height: 100px;
+    }
+    .main-screen-right-column {
+        padding-top:20px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-screen-title {
+        font-size: 18px;
+    }
+    .main-screen-description {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .main-screen-button {
+        margin: auto;
+        font-size: 12px;
+        width: 120px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .about-me {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about-me-title {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .about-me-text {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 12px;
+    }
+    .numbers {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }.number {
+         width: 33.3%;
+         margin-bottom: 10px;
+     }
+    .image-number {
+        height: 35px;
+    }
+    .number-right {
+        font-size: 12px;
+    }
+    .number-title {
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+    .number-text {
+        padding-left: 0;
+    }
+    .skills {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .skills-layout-left {
+        width: 100%;
+        text-align: left;
+    }
+    .skills-layout-title {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: .8em;
+    }
+    .skills-progress {
+        width: 100%;
+    }
+    .my-photo {
+        padding-top: 10px;
+        width: 100%;
+    }
+    .work-title {
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-size: .8em;
+    }
+    .work-description {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+    .work-video {
+        height: 130px;
+        padding-bottom: 0;
+    }
+    .player-button {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .image-button {
+        height: 50px;
+    }
+    .projects {
+        margin-top: 14px;
+    }
+    .board {
+        width: 50%;
+        height: 120px;
+    }
+    .table {
+        width: 50%;
+        height: 120px;
+    }
+    .clients {
+        padding-top: 36px;
+        padding-bottom: 50px;
+    }
+    .form-text-description {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 12px;
+    }
+    .form-field {
+        padding-left: 5%;
+        padding-right: 5%;
+}
+
+@media (max-width: 375px) {
+    /*.main-screen {
         padding-top: 25px;
         padding-bottom: 25px;
     }
@@ -335,12 +868,12 @@ body {
     }
     .main-screen-description {
         margin-top: 20px;
+        margin-bottom: 20px;
         width: 100%;
         font-size: 12px;
     }
     .main-screen-button {
-        margin-top: 20px;
-        margin-left: 70px;
+        margin: auto;
         font-size: 12px;
         width: 120px;
         padding-top: 15px;
@@ -363,14 +896,125 @@ body {
         height: 200px;
         padding-top: 50px;
         padding-bottom: 50px;
-    }.number {
+    }
+    .number {
          width: 33.3%;
          margin-bottom: 10px;
-     }
-     .image-number {
-         height: 35px;
-     }
-    .number-right {
+    }*/
+    .image-number {
+        height: 35px;
+    }
+    /*.number-right {
+        font-size: 12px;
+    }
+    .number-title {
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+    .number-text {
+        padding-left: 0;
+    }
+    .skills {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .skills-layout-left {
+        width: 100%;
+        text-align: center;
+    }
+    .skills-layout-title {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: .8em;
+    }*/
+    .skills-layout-name {
+        font-size: 12px;
+        text-align: left;
+    }
+    /*.skills-progress {
+        width: 100%;
+    }
+    .my-photo {
+        padding-top: 10px;
+        width: 100%;
+    }
+    .image-button {
+        height: 50px;
+    }*/
+}
+
+@media (max-width: 320px) {
+    /*.main-screen {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .image-logo {
+        height: 19px;
+    }
+    .menu {
+        width: 80%;
+        font-size: 12px;
+        padding-top: 0px;
+    }
+    .menu-link {
+        margin: 1px;
+        width: 30%;
+    }
+    .main-screen-left-column {
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .image-laptop {
+        height: 100px;
+    }
+    .main-screen-right-column {
+        padding-top:20px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-screen-title {
+        font-size: 18px;
+    }
+    .main-screen-description {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .main-screen-button {
+        margin: auto;
+        font-size: 12px;
+        width: 120px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .about-me {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about-me-title {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .about-me-text {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 12px;
+    }
+    .numbers {
+        height: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .number {
+         width: 33.3%;
+         margin-bottom: 10px;
+    }*/
+    .image-number {
+        height: 35px;
+    }
+    /*.number-right {
         font-size: 12px;
     }
     .number-title {
@@ -422,8 +1066,8 @@ body {
     .player-button {
         padding-top: 25px;
         padding-bottom: 25px;
-    }
-    .image-button {
+    }*/
+    /*.image-button {
         height: 50px;
     }
     .projects {
@@ -440,7 +1084,7 @@ body {
     .clients {
         padding-top: 36px;
         padding-bottom: 50px;
-    }
+    }*/
     .form-text-box {
         padding-top: 50px;
         padding-bottom: 25px;
@@ -452,18 +1096,6 @@ body {
         padding-left: 5%;
         padding-right: 5%;
         font-size: 12px;
-    }
-    .form-field {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .form-field-name {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .form-field-e-mail {
-        padding-top: 5px;
-        padding-bottom: 5px;
     }
     .form-field-message {
         margin-top: 25px;
@@ -496,11 +1128,12 @@ body {
     .social {
         width: 50%;
         padding-top: 15px;
-    }.logo {
+    }
+    .logo {
         width: 25%;
         margin-right: 0;
     }
-     .social-logo {
+    .social-logo {
         height: 14px;
-     }
+    }
 }
