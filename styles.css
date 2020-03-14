@@ -497,69 +497,70 @@ body {
     .image-laptop {
         height: 150px;
     }
-   .image-number {
+    .image-number {
         height: 35px;
-   }
-   .form-text-box {
+    }
+    .form-text-box {
         padding-bottom: 35px;
-   }
-   .form-text-title {
+    }
+    .form-text-title {
         font-size: 1em;
-   }
-   .form-text-description {
+    }
+    .form-text-description {
         padding-left: 25%;
         padding-right: 25%;
         font-size: 14px;
-   }
-   .form-field {
+    }
+    .form-field {
         padding-left: 25%;
         padding-right: 25%;
-   }
-   .form-field-name {
+    }
+    .form-field-name {
         padding-top: 10px;
         padding-bottom: 10px;
-   }
-   .form-field-e-mail {
+    }
+    .form-field-e-mail {
         padding-top: 10px;
         padding-bottom: 10px;
-   }
-   .form-field-message {
+    }
+    .form-field-message {
         margin-top: 35px;
-   }
-   .field-name {
+    }
+    .field-name {
         font-size: 14px;
         padding-left: 8px;
-   }
-   .field-area {
+    }
+    .field-area {
         font-size: 14px;
         padding-left: 10px;
         width: 100%;
-   }
-   .form-button {
+    }
+    .form-button {
         padding-top: 35px;
         padding-bottom: 70px;
-   }
-   .button {
+    }
+    .button {
         font-size: 14px;
         padding: 12px 24px;
-   }
-   .contacts {
+    }
+    .contacts {
         padding-top: 35px;
         padding-bottom: 35px;
-   }
-   .copyright {
+    }
+    .copyright {
         font-size: .9em;
-   }
-   .social {
+    }
+    .social {
         width: 40%;
         padding-top: 20px;
-   }.logo {
+    }
+    .logo {
          width: 25%;
          margin-right: 10px;
-   }
-   .social-logo {
+    }
+    .social-logo {
         height: 20px;
-   }
+    }
 }
 
 @media (max-width: 425px) {
@@ -624,10 +625,11 @@ body {
     .numbers {
         padding-top: 50px;
         padding-bottom: 50px;
-    }.number {
+    }
+    .number {
          width: 33.3%;
          margin-bottom: 10px;
-     }
+    }
     .image-number {
         height: 35px;
     }
